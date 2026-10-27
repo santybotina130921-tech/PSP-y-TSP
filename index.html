@@ -1,172 +1,420 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PSP y TSP</title>
-<link rel="stylesheet" href="../psp y tsp/style/style.css">
-</head>
-<body>
-
-<header class="hero" id="inicio">
-  <div class="wrap">
-    <nav class="nav">
-      <div class="logo">PSP &amp; TSP</div>
-      <ul class="menu">
-        <li><a class="on" href="#inicio">Inicio</a></li>
-        <li><a href="#psp">PSP</a></li>
-        <li><a href="#tsp">TSP</a></li>
-        <li><a href="#comparativa">Comparativa</a></li>
-        <li><a href="#juego">Juego</a></li>
-        <li><a href="#equipo">Equipo</a></li>
-      </ul>
-    </nav>
-    <div class="hero-grid">
-      <div class="phone" aria-hidden="true">
-        <div class="screen">
-          <div class="bot">👾</div>
-          <small>NIVEL PSP</small>
-          <div class="bar"><i style="width:25%"></i></div>
-          <div class="bar"><i style="width:50%"></i></div>
-          <div class="bar"><i style="width:75%"></i></div>
-          <div class="bar"><i style="width:100%"></i></div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PSP y TSP</title>
+    <link rel="stylesheet" href="../psp y tsp/style/style.css">
+  </head>
+  <body>
+    <header id="inicio" class="hero">
+      <div class="wrap">
+        <nav class="nav">
+          <div class="logo">PSP &amp; TSP</div>
+          <ul class="menu">
+            <li><a class="on" href="#inicio">Inicio</a></li>
+            <li><a href="#psp">PSP</a></li>
+            <li><a href="#tsp">TSP</a></li>
+            <li><a href="#comparativa">Comparativa</a></li>
+            <li><a href="#juego">Juego</a></li>
+          </ul>
+        </nav>
+        <div class="hero-grid">
+          <div class="phone" aria-hidden="true">
+            <div class="screen">
+              <div class="bot">👾</div>
+              <small>NIVEL PSP</small>
+              <div class="bar"><i class="w25"></i></div>
+              <div class="bar"><i class="w50"></i></div>
+              <div class="bar"><i class="w75"></i></div>
+              <div class="bar"><i class="w100"></i></div>
+            </div>
+          </div>
+          <div class="hero-text">
+            <h1>Mejora tu proceso, mejora tu equipo</h1>
+            <p>
+              El Personal Software Process (PSP) y el Team Software Process (TSP) ayudan a planear, medir y entregar software con calidad.
+            </p>
+            <p class="dim">
+              PSP lleva la disciplina al desarrollador individual. TSP la lleva al equipo completo.
+            </p>
+            <div class="cta">
+              <a class="btn" href="#psp">Conocer el PSP</a> <span>o</span> <a href="#tsp">▭ Ver el TSP</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="hero-text">
-        <h1>Mejora tu proceso, mejora tu equipo</h1>
-        <p>El Personal Software Process (PSP) y el Team Software Process (TSP) ayudan a planear, medir y entregar software con calidad.</p>
-        <p class="dim">PSP lleva la disciplina al desarrollador individual. TSP la lleva al equipo completo.</p>
-        <div class="cta">
-          <a class="btn" href="#psp">Conocer el PSP</a>
-          <span>o</span>
-          <a href="#tsp">▭ Ver el TSP</a>
-        </div>
+    </header>
+    <div class="strip">
+      <div class="wrap">
+        <span>CMMI</span> <span>ISO</span> <span>SAITOSOFT</span> <span>UTL</span> <span>i-place</span> <span>T-Systems</span>
       </div>
     </div>
-  </div>
-</header>
+    <main class="wrap">
+      <section class="features">
+        <article id="psp">
+          <div class="ico">👤</div>
+          <h3>PSP: el desarrollador</h3>
+          <p>
+            Marco para que cada persona defina sus procesos, planee su trabajo, le dé seguimiento y administre la calidad de sus productos.
+          </p>
+          <a class="btn sm" href="#m-psp">Leer más</a>
+        </article>
+        <article id="tsp">
+          <div class="ico">👥</div>
+          <h3>TSP: el equipo</h3>
+          <p>
+            Lleva los principios del PSP al equipo para formar grupos de alto desempeño que planean y establecen sus propias metas.
+          </p>
+          <a class="btn sm" href="#m-tsp">Leer más</a>
+        </article>
+        <article>
+          <div class="ico">🏅</div>
+          <h3>Certificaciones</h3>
+          <p>
+            Pensadas para organizaciones con CMMI e ISO. Cada una dura 64 horas en 10 días. Meta: cero defectos y entrega a tiempo.
+          </p>
+          <a class="btn sm" href="#m-cert">Leer más</a>
+        </article>
+      </section>
+      <h2>Niveles del PSP</h2>
+            <section class="tiles">
+        <div class="tile">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/nivel-psp0.jpeg" alt="Fondo de PSP 0">
+          <div class="texto">
+            <b>PSP 0</b>
+            <span>Línea base: proceso actual, registro de tiempos y defectos, estándares de código y medición de tamaño</span>
+          </div>
+        </div>
+        <div class="tile">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/nivel-psp1.jpeg" alt="Fondo de PSP 1">
+          <div class="texto">
+            <b>PSP 1</b>
+            <span>Proceso personal de planeación: estimación de tamaño, reporte de pruebas y calendario de tareas</span>
+          </div>
+        </div>
+        <div class="tile">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/nivel-psp2.jpeg" alt="Fondo de PSP 2">
+          <div class="texto">
+            <b>PSP 2</b>
+            <span>Manejo personal de calidad: revisión de diseño y código, y plantillas de diseño</span>
+          </div>
+        </div>
+        <div class="tile">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/nivel-psp3.jpeg" alt="Fondo de PSP 3">
+          <div class="texto">
+            <b>PSP 3</b>
+            <span>Proceso personal cíclico: proyectos de mayor escala mediante ciclos personales</span>
+          </div>
+        </div>
+      </section>
+      <h2>Relación entre CMMI, TSP y PSP</h2>
+           <section class="relacion">
+        <article class="nivel">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/rel-cmmi.jpeg" alt="Fondo de CMMI">
+          <div class="texto">
+            <b>CMMI</b>
+            <span>Capacidad de la organización</span>
+          </div>
+        </article>
+        <article class="nivel">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/rel-tsp.jpeg" alt="Fondo de TSP">
+          <div class="texto">
+            <b>TSP</b>
+            <span>Trabajo del equipo: calidad, a tiempo y dentro del presupuesto</span>
+          </div>
+        </article>
+        <article class="nivel">
+          <img class="fondo" src="../psp y tsp/assets/imagenes/rel-psp.jpeg" alt="Fondo de PSP">
+          <div class="texto">
+            <b>PSP</b>
+            <span>Disciplina y competencias individuales del ingeniero</span>
+          </div>
+        </article>
+      </section>
+      <h2>Roles en los equipos TSP</h2>
+      <section class="roles">
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/rol-lider.jpeg" alt="Líder del equipo">
+          <h3>Líder del equipo</h3>
+          <p>
+            Dirige al equipo, asegura el registro de datos y hace los reportes semanales de avance.
+          </p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/rol-gestor-desarrollo.jpeg" alt="Gestor de desarrollo">
+          <h3>Gestor de desarrollo</h3>
+          <p>Guía el diseño y desarrollo técnico del producto.</p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/rol-planeacion.jpeg" alt="Gestor de planificación">
+          <h3>Gestor de planificación</h3>
+          <p>Apoya la planeación, la calendarización y el seguimiento de actividades.</p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/rol-calidad.jpeg" alt="Gestor de calidad y proceso">
+          <h3>Gestor de calidad y proceso</h3>
+          <p>
+            Administra el plan de calidad, define estándares, modera inspecciones y revisa artefactos.
+          </p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/rol-soporte.jpeg" alt="Administrador de requerimientos y soporte">
+          <h3>Administrador de requerimientos y soporte</h3>
+          <p>
+            Dirige el análisis de requerimientos, gestiona la configuración y da soporte técnico y administrativo.
+          </p>
+        </article>
+      </section>
+      <h2>Ciclo del TSP</h2>
+      <ol class="ciclo">
+        <li>
+          <b>1. Lanzamiento</b> <span>Construcción del equipo, metas, asignación de tareas, evaluación de riesgos, estimación de esfuerzo y plan de trabajo.</span>
+        </li>
+        <li>
+          <b>2. Ejecución</b> <span>Seguimiento con juntas semanales: diseño detallado, revisión, codificación, compilación, pruebas y análisis de calidad con PSP.</span>
+        </li>
+        <li>
+          <b>3. Postmortem</b> <span>Análisis del rendimiento frente al plan y registro de las lecciones aprendidas.</span>
+        </li>
+      </ol>
+      <img class="slot wide" src="../psp y tsp/assets/imagenes/ciclo-tsp.jpeg" alt="Ciclo del TSP">
+      <h2 id="comparativa">Comparativa PSP vs TSP</h2>
+      <div class="tabla-wrap">
+        <table class="tabla">
+          <thead><tr><th>Aspecto</th><th>PSP</th><th>TSP</th></tr></thead>
+          <tbody>
+            <tr>
+              <th scope="row">Enfoque</th>
+              <td>El ingeniero individual</td>
+              <td>El equipo de trabajo</td>
+            </tr>
+            <tr>
+              <th scope="row">Qué es</th>
+              <td>
+                Marco de procesos para definir, planear, dar seguimiento y gestionar la calidad del trabajo propio
+              </td>
+              <td>
+                Modelo que combina los principios del PSP con el trabajo colaborativo en equipo
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Objetivo</th>
+              <td>
+                Controlar y mejorar el desempeño individual (el personal es el 70% del costo del desarrollo)
+              </td>
+              <td>
+                Formar equipos de alto rendimiento que entreguen productos de clase mundial en ciclos bien definidos
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Estructura</th>
+              <td>4 niveles: PSP 0, 1, 2 y 3</td>
+              <td>3 fases: lanzamiento, ejecución y postmortem</td>
+            </tr>
+            <tr>
+              <th scope="row">Ventajas</th>
+              <td>
+                Más productividad y calidad, menos errores de codificación, mejores fortalezas y áreas de mejora
+              </td>
+              <td>
+                Más calidad, menos defectos, menos tiempo y costo de pruebas, práctica de ingeniería madura
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Desventajas</th>
+              <td>Tensión por sentirse controlado y tiempo para registrar datos</td>
+              <td>Exige compromiso, mucha documentación y que todos tengan PSP</td>
+            </tr>
+            <tr>
+              <th scope="row">Certificación</th>
+              <td>
+                Para organizaciones con CMMI e ISO. Meta: cero defectos en el plazo previsto
+              </td>
+              <td>Verifica que la organización adopte TSP de forma adecuada</td>
+            </tr>
+            <tr>
+              <th scope="row">Costo</th>
+              <td>$23,916.00 MXN</td>
+              <td>$263,916.00 MXN</td>
+            </tr>
+            <tr>
+              <th scope="row">Duración</th>
+              <td>64 horas en 10 días</td>
+              <td>64 horas en 10 días</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="cierre">PSP mejora al individuo. TSP mejora al equipo.</p>
+      <h2>Objetivos del TSP</h2>
+      <section class="objetivos">
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/obj-calidad.jpeg" alt="Objetivo: calidad">
+          <h3>Calidad</h3>
+          <p>Maximizar la calidad del software y minimizar costos.</p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/obj-equipos.jpeg" alt="Objetivo: equipos">
+          <h3>Equipos</h3>
+          <p>Integrar equipos independientes de alto rendimiento.</p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/obj-gerentes.jpeg" alt="Objetivo: gerentes">
+          <h3>Gerentes</h3>
+          <p>Mostrar cómo monitorear y motivar a sus equipos.</p>
+        </article>
+        <article class="card">
+          <img class="slot" src="../psp y tsp/assets/imagenes/obj-mejora.jpeg" alt="Objetivo: mejora continua">
+          <h3>Mejora</h3>
+          <p>Acelerar la mejora continua en las organizaciones.</p>
+        </article>
+      </section>
+      <h2>Perfil de participantes</h2>
+      <section class="perfil">
+        <article class="card">
+          <div class="ico">💼</div>
+          <h3>Sector productivo</h3>
+          <p>Profesionales de TI de empresas de software y servicios.</p>
+        </article>
+        <article class="card">
+          <div class="ico">🏛</div>
+          <h3>Sector público</h3>
+          <p>Servidores públicos vinculados a áreas de tecnologías de la información.</p>
+        </article>
+        <article class="card">
+          <div class="ico">🎓</div>
+          <h3>Docentes</h3>
+          <p>Docentes universitarios de programas de pregrado afines a TI.</p>
+        </article>
+        <article class="card">
+          <div class="ico">💻</div>
+          <h3>Estudiantes</h3>
+          <p>
+            De ingeniería de sistemas o software, desde 6.º semestre y con al menos un lenguaje de programación.
+          </p>
+        </article>
+      </section>
+      <h2>Preguntas frecuentes</h2>
+      <section class="faq">
+        <details>
+          <summary>¿Dónde se aplica el PSP?</summary>
+          <p>
+            En el desarrollo de programas, la definición de requerimientos, la documentación, las pruebas de sistemas y el mantenimiento.
+          </p>
+        </details>
+        <details>
+          <summary>¿Cuál es la meta de la certificación PSP?</summary>
+          <p>
+            Lograr productos de calidad con cero defectos y entregados en la fecha propuesta.
+          </p>
+        </details>
+        <details>
+          <summary>¿Con qué modelos se relacionan?</summary>
+          <p>
+            Se complementan en tres niveles: CMMI en la organización, TSP en el equipo y PSP en el individuo.
+          </p>
+        </details>
+      </section>
+      <div class="cols">
+        <section>
+          <h2>Pros y contras</h2>
+          <div class="item">
+            <div class="thumb">✔</div>
+            <div>
+              <b>Ventajas del PSP</b> Mejora la productividad, reduce errores de codificación, da mejor control del trabajo individual y facilita ver fortalezas y debilidades.
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb">✖</div>
+            <div>
+              <b>Desventajas del PSP</b> Genera tensión por sentirse controlado y exige tiempo para registrar los tiempos de trabajo.
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb">✔</div>
+            <div>
+              <b>Ventajas del TSP</b> Eleva la calidad, reduce defectos y baja los costos y tiempos de pruebas.
+            </div>
+          </div>
+          <div class="item">
+            <div class="thumb">✖</div>
+            <div>
+              <b>Desventajas del TSP</b> Exige compromiso, documentación completa, buenas métricas y que cada miembro tenga formación en PSP.
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>Datos clave</h2>
+          <div class="dato">
+            <em>70%</em> del costo del desarrollo son costos de personal: los hábitos de cada ingeniero marcan el resultado. 
+            <small>PSP · por qué importa</small>
+          </div>
+          <div class="dato">
+            <em>$23,916.00 MXN</em> cuesta la certificación PSP. Dura 64 horas distribuidas en 10 días. 
+            <small>PSP · costo y duración</small>
+          </div>
+          <div class="dato">
+            <em>$263,916.00 MXN</em> cuesta la certificación TSP. Dura 64 horas repartidas en 10 días. 
+            <small>TSP · costo y duración</small>
+          </div>
+          <a class="btn sm" href="https://pspytsplink.netlify.app" target="_blank" rel="noopener">
+            Ver la presentación
+          </a>
+        </section>
+      </div>
+      <h2 id="juego">Juega y repasa: Breakout</h2>
+      <p class="juego-txt">
+        Supera las misiones del videojuego para repasar lo que aprendiste sobre PSP y TSP.
+      </p>
+      <div class="juego">
+        <iframe src="https://view.genially.com/6ad3d8193d8da902f3ec2e38" title="Breakout Videojuego" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <p class="juego-txt">
+        <a class="btn sm" href="https://view.genially.com/6ad3d8193d8da902f3ec2e38" target="_blank" rel="noopener">Abrir el juego en pantalla completa</a>
+      </p>
+      
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <span>
+          © Equipo: Jacobo Camacho, Wilmar Martinez, Gabriela Uribe, Valentina Saavedra y Nicol Restrepo
+        </span>
+        <div class="dots" aria-hidden="true">
+          <i class="dot-p">P</i> <i class="dot-s">S</i> <i class="dot-t">T</i> <i class="dot-x">★</i>
+        </div>
+      </div>
+    </footer>
 
-<div class="strip">
-  <div class="wrap">
-    <span>CMMI</span>
-    <span>ISO</span>
-    <span>SAITOSOFT</span>
-    <span>UTL</span>
-    <span>i-place</span>
-    <span>T-Systems</span>
-  </div>
-</div>
 
-<main class="wrap">
-  <section class="features">
-    <article id="psp">
-      <div class="ico">👤</div>
-      <h3>PSP: el desarrollador</h3>
-      <p>Marco para que cada persona defina sus procesos, planee su trabajo, le dé seguimiento y administre la calidad de sus productos.</p>
-      <a class="btn sm" href="#m-psp">Leer más</a>
-    </article>
-    <article id="tsp">
-      <div class="ico">👥</div>
-      <h3>TSP: el equipo</h3>
-      <p>Lleva los principios del PSP al equipo para formar grupos de alto desempeño que planean y establecen sus propias metas.</p>
-      <a class="btn sm" href="#m-tsp">Leer más</a>
-    </article>
-    <article>
-      <div class="ico">🏅</div>
-      <h3>Certificaciones</h3>
-      <p>Pensadas para organizaciones con CMMI e ISO. Cada una dura 64 horas en 10 días. Meta: cero defectos y entrega a tiempo.</p>
-      <a class="btn sm" href="#m-cert">Leer más</a>
-    </article>
-  </section>
 
-  <h2>Niveles del PSP</h2>
-  <section class="tiles">
-    <div class="tile t0"><b>PSP 0</b>
-      <span>Línea base: proceso actual, registro de tiempos y defectos, estándares de código y medición de tamaño</span></div>
-    <div class="tile t1"><b>PSP 1</b>
-      <span>Proceso personal de planeación: estimación de tamaño, reporte de pruebas y calendario de tareas</span></div>
-    <div class="tile t2"><b>PSP 2</b>
-      <span>Manejo personal de calidad: revisión de diseño y código, y plantillas de diseño</span></div>
-    <div class="tile t3"><b>PSP 3</b>
-      <span>Proceso personal cíclico: proyectos de mayor escala mediante ciclos personales</span></div>
-  </section>
 
-  <h2>Relación entre CMMI, TSP y PSP</h2>
-  <section class="relacion">
-    <article class="nivel n1"><b>CMMI</b>
-      <span>Capacidad de la organización</span></article>
-    <article class="nivel n2"><b>TSP</b>
-      <span>Trabajo del equipo: calidad, a tiempo y dentro del presupuesto</span></article>
-    <article class="nivel n3"><b>PSP</b>
-      <span>Disciplina y competencias individuales del ingeniero</span></article>
-  </section>
-
-  <h2>Roles en los equipos TSP</h2>
-  <section class="roles">
-    <article class="card">
-      <div class="slot s-lider"></div>
-      <h3>Líder del equipo</h3>
-      <p>Dirige al equipo, asegura el registro de datos y hace los reportes semanales de avance.</p></article>
-    <article class="card">
-      <div class="slot s-desarrollo"></div>
-      <h3>Gestor de desarrollo</h3>
-      <p>Guía el diseño y desarrollo técnico del producto.</p></article>
-    <article class="card">
-      <div class="slot s-planeacion"></div>
-      <h3>Gestor de planificación</h3>
-      <p>Apoya la planeación, la calendarización y el seguimiento de actividades.</p></article>
-    <article class="card">
-      <div class="slot s-calidad"></div>
-      <h3>Gestor de calidad y proceso</h3>
-      <p>Administra el plan de calidad, define estándares, modera inspecciones y revisa artefactos.</p></article>
-    <article class="card">
-      <div class="slot s-soporte"></div>
-      <h3>Administrador de requerimientos y soporte</h3>
-      <p>Dirige el análisis de requerimientos, gestiona la configuración y da soporte técnico y administrativo.</p></article>
-  </section>
-
-  <h2>Ciclo del TSP</h2>
-  <ol class="ciclo">
-    <li><b>1. Lanzamiento</b>
-      <span>Construcción del equipo, metas, asignación de tareas, evaluación de riesgos, estimación de esfuerzo y plan de trabajo.</span></li>
-    <li><b>2. Ejecución</b>
-      <span>Seguimiento con juntas semanales: diseño detallado, revisión, codificación, compilación, pruebas y análisis de calidad con PSP.</span></li>
-    <li><b>3. Postmortem</b>
-      <span>Análisis del rendimiento frente al plan y registro de las lecciones aprendidas.</span></li>
-  </ol>
-  <div class="slot s-ciclo wide"></div>
-
-  <h2 id="comparativa">Comparativa PSP vs TSP</h2>
-  <div class="tabla-wrap">
-    <table class="tabla">
-      <thead><tr><th>Aspecto</th><th>PSP</th><th>TSP</th></tr></thead>
-      <tbody>
-        <tr><th scope="row">Enfoque</th>
-          <td>El ingeniero individual</td><td>El equipo de trabajo</td></tr>
-        <tr><th scope="row">Qué es</th>
-          <td>Marco de procesos para definir, planear, dar seguimiento y gestionar la calidad del trabajo propio</td>
-          <td>Modelo que combina los principios del PSP con el trabajo colaborativo en equipo</td></tr>
-        <tr><th scope="row">Objetivo</th>
-          <td>Controlar y mejorar el desempeño individual (el personal es el 70% del costo del desarrollo)</td>
-          <td>Formar equipos de alto rendimiento que entreguen productos de clase mundial en ciclos bien definidos</td></tr>
-        <tr><th scope="row">Estructura</th>
-          <td>4 niveles: PSP 0, 1, 2 y 3</td><td>3 fases: lanzamiento, ejecución y postmortem</td></tr>
-        <tr><th scope="row">Ventajas</th>
-          <td>Más productividad y calidad, menos errores de codificación, mejores fortalezas y áreas de mejora</td>
-          <td>Más calidad, menos defectos, menos tiempo y costo de pruebas, práctica de ingeniería madura</td></tr>
-        <tr><th scope="row">Desventajas</th>
-          <td>Tensión por sentirse controlado y tiempo para registrar datos</td>
-          <td>Exige compromiso, mucha documentación y que todos tengan PSP</td></tr>
-        <tr><th scope="row">Certificación</th>
-          <td>Para organizaciones con CMMI e ISO. Meta: cero defectos en el plazo previsto</td>
-          <td>Verifica que la organización adopte TSP de forma adecuada</td></tr>
-        <tr><th scope="row">Costo</th>
-          <td>$23,916.00 MXN</td><td>$263,916.00 MXN</td></tr>
-        <tr><th scope="row">Duración</th>
-          <td>64 horas en 10 días</td><td>64 horas en 10 días</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p class="cierre">PSP mejora al individuo. TSP mejora al equipo.</p>
-
-  
+    <div id="m-psp" class="modal">
+      <div class="box">
+        <h3>PSP: Personal Software Process</h3>
+        <p>
+          Guía a los ingenieros de software para definir, planear, dar seguimiento y gestionar la calidad de su propio trabajo. Se aplica en desarrollo de programas, requerimientos, documentación, pruebas de sistemas y mantenimiento. Sus 4 niveles van de la línea base (PSP 0) al proceso cíclico (PSP 3).
+        </p>
+        <a class="btn sm" href="#inicio">Cerrar</a>
+      </div>
+    </div>
+    <div id="m-tsp" class="modal">
+      <div class="box">
+        <h3>TSP: Team Software Process</h3>
+        <p>
+          Combina los principios del PSP con el trabajo en equipo para formar y poner en marcha equipos de alto rendimiento que entreguen productos de clase mundial en ciclos de desarrollo bien definidos.
+        </p>
+        <a class="btn sm" href="#inicio">Cerrar</a>
+      </div>
+    </div>
+    <div id="m-cert" class="modal">
+      <div class="box">
+        <h3>Certificaciones</h3>
+        <p>
+          PSP: empresas como Tecnología de Gestión y Comunicación, SAITOSOFT, UTL, i-place y T-Systems México. TSP: la evaluación organizacional verifica que la organización lo adopte bien y refleje su capacidad real.
+        </p>
+        <a class="btn sm" href="#inicio">Cerrar</a>
+      </div>
+    </div>
+  </body>
+</html>
